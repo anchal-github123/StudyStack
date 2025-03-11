@@ -3,6 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 body{
   font-family: "Metrophobic", sans-serif;
   font-weight: 400;
@@ -11,5 +16,7 @@ body{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size:1.2rem;
-
+}
+li{
+  font-size: 1rem;
 }

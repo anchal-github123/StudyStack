@@ -1,4 +1,4 @@
-import logo from "../assets/Logo.svg"
+import Logo from "./logo";
 import { IoSearch } from "react-icons/io5";
 import { HiMiniShoppingBag } from "react-icons/hi2";
 export default function Navbar() {
@@ -6,10 +6,7 @@ export default function Navbar() {
     <>
         <div id="nav-Container" className="border flex items-center justify-between">
         {/* logo ===========*/}
-        <div id="logo" className="flex items-center gap-2">
-        <img src={logo} alt="logo"></img>
-        <h1 className="text-primery">Study <span className="text-secondary">Stack</span></h1>
-        </div>
+        <Logo></Logo>
         {/* Nav Items========= */}
         <div id="nav-Item" className="hidden md:flex">
         <ul className="flex items-center gap-10">
